@@ -4,6 +4,9 @@
 //
 //  Created by Ondrej Rafaj on 19/04/2018.
 //
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 
 import Foundation
 import Vapor
